@@ -1,0 +1,8 @@
+
+L	java:S106"+Replace this use of System.out by a logger.(¨§Üáýÿÿÿÿ8ª‰ûœ±1
+]	java:S125"<This block of commented-out lines of code should be removed.(ëÆÔýþÿÿÿÿ8«‰ûœ±1
+]	java:S1255"<This block of commented-out lines of code should be removed.(êû±¾ÿÿÿÿÿ8®‰ûœ±1
+W
+java:S1854E"5Remove this useless assignment to local variable "p".(ä¡£ýùÿÿÿÿ8±‰ûœ±1
+R
+java:S11443"0Remove this unused private "mergePerson" method.(‘€Æžüÿÿÿÿ8·‰ûœ±1
