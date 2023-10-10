@@ -1,0 +1,24 @@
+
+L	java:S106"+Replace this use of System.out by a logger.(¨§Üáýÿÿÿÿ8÷²Ÿ¥±1
+X	java:S125"<This block of commented-out lines of code should be removed.(Ž¾§í8÷²Ÿ¥±1
+F	java:S106+"+Replace this use of System.out by a logger.(ºÒ"8ø²Ÿ¥±1
+L	java:S106,"+Replace this use of System.out by a logger.(ÓÄÓ€ùÿÿÿÿ8ù²Ÿ¥±1
+]	java:S1257"<This block of commented-out lines of code should be removed.(·ãíÔþÿÿÿÿ8ú²Ÿ¥±1
+X	java:S125;"<This block of commented-out lines of code should be removed.(ºû¼8ú²Ÿ¥±1
+G	java:S106E"+Replace this use of System.out by a logger.(Áß‡Ü8û²Ÿ¥±1
+L	java:S106J"+Replace this use of System.out by a logger.(Šµùÿÿÿÿ8û²Ÿ¥±1
+N
+java:S1874U"2Remove this use of "QueryHints"; it is deprecated.(†éèz8áñ†Â±1
+N
+java:S1874V"2Remove this use of "QueryHints"; it is deprecated.(ä™ø,8áñ†Â±1
+F	java:S106X"+Replace this use of System.out by a logger.(ºÒ"8¿ûöÁ±1
+[
+java:S1128"9Remove this unused import 'de.atruvia.entities.Employee'.(³œ†™ýÿÿÿÿ8®¤ùÁ±1
+U
+java:S1128"8Remove this unused import 'de.atruvia.entities.Kontakt'.(øÕ³¤8¯¤ùÁ±1
+Y
+java:S1128"7Remove this unused import 'de.atruvia.entities.Person'.(˜ßîÿÿÿÿÿ8¯¤ùÁ±1
+S
+java:S1144$"1Remove this unused private "queryCompany" method.(„³Ê³ûÿÿÿÿ8û²Ÿ¥±1
+O
+java:S11443"2Remove this unused private "queryEmployee" method.(§Ý8ý‘úÁ±1
