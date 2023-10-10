@@ -30,10 +30,9 @@
 
         <dependency>
             <groupId>org.hibernate</groupId>
-            <artifactId>hibernate-jcache</artifactId>
-            <version>${hibernateVersion}</version>
+            <artifactId>hibernate-ehcache</artifactId>
+            <version>5.6.15.Final</version>
         </dependency>
-
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-c3p0</artifactId>

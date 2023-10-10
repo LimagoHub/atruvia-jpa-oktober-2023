@@ -1,10 +1,7 @@
 package de.atruvia.entities;
 
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.OneToMany;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 import lombok.*;
 import org.hibernate.Hibernate;
 
@@ -21,6 +18,10 @@ import java.util.Objects;
 
 @Entity
 @Table(name ="Companies")
+@NamedEntityGraph(
+    name = "entityGraph.Company.employees", attributeNodes = @NamedAttributeNode("employees")
+            )
+@Cacheable
 public class Company {
 
     @Id
