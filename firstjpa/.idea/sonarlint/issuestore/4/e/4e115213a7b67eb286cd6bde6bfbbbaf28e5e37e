@@ -1,8 +1,16 @@
 
-L	java:S106"+Replace this use of System.out by a logger.(¨§Üáýÿÿÿÿ8ª‰ûœ±1
-]	java:S125"<This block of commented-out lines of code should be removed.(ëÆÔýþÿÿÿÿ8«‰ûœ±1
-]	java:S1255"<This block of commented-out lines of code should be removed.(êû±¾ÿÿÿÿÿ8®‰ûœ±1
+L	java:S106"+Replace this use of System.out by a logger.(¨§Üáýÿÿÿÿ8ªÉÇ±1
+]	java:S125B"<This block of commented-out lines of code should be removed.(êû±¾ÿÿÿÿÿ8”ªÉÇ±1
 W
-java:S1854E"5Remove this useless assignment to local variable "p".(ä¡£ýùÿÿÿÿ8±‰ûœ±1
+java:S1854R"5Remove this useless assignment to local variable "p".(ä¡£ýùÿÿÿÿ8—ªÉÇ±1
+G	java:S106q"+Replace this use of System.out by a logger.(—Þ“8šªÉÇ±1
+U
+java:S1128"8Remove this unused import 'de.atruvia.entities.Kontakt'.(øÕ³¤8ÃßÉÇ±1
+W
+java:S1128";Remove this unused import 'jakarta.persistence.TypedQuery'.(•Çã8ÄßÉÇ±1
 R
-java:S11443"0Remove this unused private "mergePerson" method.(‘€Æžüÿÿÿÿ8·‰ûœ±1
+java:S1144@"0Remove this unused private "mergePerson" method.(‘€Æžüÿÿÿÿ8ªÉÇ±1
+Q
+java:S1144a"4Remove this unused private "createBarKeeper" method.(‰ä˜÷8ªÉÇ±1
+K
+java:S1144{".Remove this unused private "createBar" method.(Öü“ƒ8ªÉÇ±1

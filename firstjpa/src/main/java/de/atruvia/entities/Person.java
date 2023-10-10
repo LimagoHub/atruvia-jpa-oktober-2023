@@ -36,6 +36,10 @@ public class Person extends AbstractEntity{
     @ElementCollection(fetch = FetchType.LAZY)
     @Builder.Default
     private List<Kontakt> kontakte = new ArrayList<>();
+
+    @Version
+    private long version;
+
     @Override
     public boolean equals(final Object o) {
         if (this == o) return true;

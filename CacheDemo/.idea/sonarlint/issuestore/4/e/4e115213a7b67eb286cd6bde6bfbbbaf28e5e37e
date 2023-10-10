@@ -1,0 +1,13 @@
+
+L	java:S106"+Replace this use of System.out by a logger.(¨§Üáıÿÿÿÿ8²“áŸ±1
+X	java:S125!"<This block of commented-out lines of code should be removed.(Å¸Áğ8³“áŸ±1
+]	java:S125:"<This block of commented-out lines of code should be removed.(êû±¾ÿÿÿÿÿ8¶“áŸ±1
+W
+java:S1854J"5Remove this useless assignment to local variable "p".(ä¡£ıùÿÿÿÿ8¸“áŸ±1
+G	java:S106i"+Replace this use of System.out by a logger.(—Ş“8»“áŸ±1
+N
+java:S1144("1Remove this unused private "createPerson" method.(ÙøöÍ8½“áŸ±1
+R
+java:S11448"0Remove this unused private "mergePerson" method.(‘€Æüÿÿÿÿ8½“áŸ±1
+Q
+java:S1144Y"4Remove this unused private "createBarKeeper" method.(‰ä˜÷8½“áŸ±1

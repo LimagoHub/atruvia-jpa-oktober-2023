@@ -30,11 +30,8 @@ public class App {
         }
         ));
 
-        //createPerson();
-        //mergePerson();
-        //removePerson();
-        //createBarKeeper();
-        createBar();
+        createPerson();
+
     }
 
     private void createPerson() {
@@ -42,12 +39,23 @@ public class App {
         entityManager.getTransaction().begin();
 
         Person p = Person.builder().vorname("John").nachname("Doe").build();
-        p.getKontakte().add(Kontakt.builder().art("Mobil").wert("12345").build());
-        p.getKontakte().add(Kontakt.builder().art("Email").wert("a@bcd.de").build());
 
         entityManager.persist(p);// Persistent
 
         p.setVorname("Jane");
+
+        entityManager.getTransaction().commit();
+        entityManager.close();
+
+        //d788eff4-ef26-4e98-af20-145b0a7a00f7
+        entityManager = entityManagerFactory.createEntityManager();
+        entityManager.getTransaction().begin();
+
+         p = Person.builder().id(UUID.fromString("d788eff4-ef26-4e98-af20-145b0a7a00f7")).vorname("John").nachname("Doe").version(1).build();
+
+        entityManager.merge(p);// Persistent
+
+
 
         entityManager.getTransaction().commit();
         entityManager.close();
